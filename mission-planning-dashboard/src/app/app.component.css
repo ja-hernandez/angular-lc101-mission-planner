@@ -1,4 +1,15 @@
 .box {
     display: flex;
+    width: 90%;
     padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
 }
+
+.box.box-item {
+    flex: 1 0 calc(100%/3);
+    padding: 10px;
+    height: 100%;
+    }
